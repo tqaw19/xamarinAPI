@@ -11,7 +11,7 @@ module.exports = {
 			}
 		});
 	},
-	//localhost:3000/producto/detail/5cbf7bfc5944740911c34fcd
+	
 	detail: function (req, res) {
 		let val_id = req.params.id;
 		model.findOne({

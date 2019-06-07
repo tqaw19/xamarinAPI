@@ -8,7 +8,7 @@ let modelSchema = new Schema({
 	descripcion : { type: String , required: true },
 	fecha_vencimiento : { type: String , required: true },
     tipo : { type: String , required: true },
-    cantidad : { type: Number , required: true }
+    cantidad : { type: String , required: true }
 	
 });
 let model = mongoose.model('medicamentos',modelSchema,'medicamentos');

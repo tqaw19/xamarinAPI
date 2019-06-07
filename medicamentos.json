@@ -1,0 +1,4 @@
+{"_id":1.0,"nombre":"Ibuprofeno","descripcion":"Pastillas para la fiebre","fecha_vencimiento":"2029-06-14","tipo":"Pastillas","cantidad":"50"}
+{"_id":2.0,"nombre":"Panadol","descripcion":"Pastillas para el dolor muscular","fecha_vencimiento":"2010-06-14","tipo":"Pastillas","cantidad":"100"}
+{"_id":3,"nombre":"Bactrim","descripcion":"Pastillas para el malestar general","fecha_vencimiento":"2025-04-16","tipo":"pastilla","cantidad":"80","__v":0}
+{"_id":4,"nombre":"Bismutol","descripcion":"Jarabe fuerte para la indigestión","fecha_vencimiento":"2022-05-16","tipo":"jarabe","cantidad":"39","__v":0}
