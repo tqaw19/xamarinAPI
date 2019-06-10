@@ -74,17 +74,15 @@ module.exports = {
 				res.send(newData);
 			}
 		});
-	},
-	delete: function (req, res) {
-		let val_id = req.params.id;
-		console.log('ID del elemento: ' + val_id);		
-		model.deleteOne({
-			_id: val_id
-		}, function(err, res) {
-			if (err) {
-				console.log(err);
-				res.sendStatus(500);
-			} 
-		});
 	}
+	// delete: function (req, res) {
+	// 	let val_id = req.params.id;
+	// 	console.log('Elemento a borrar: ' + val_id);		
+	// 	model.deleteOne({
+	// 		_id: val_id
+	// 	}, function(err, res) {
+	// 		if (err) res.sendStatus(500).send({message: `Error al borrar el item: ${err}`})
+	// 		res.status(200).send({message: 'El item ha sido eliminado'})							 
+	// 	});
+	// }
 };
