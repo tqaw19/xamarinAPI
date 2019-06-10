@@ -15,11 +15,11 @@ router.post('/', function(req, res, next) {
   controller.create(req,res);
 });
 
-router.post('/update', function(req, res, next) {
+router.put('/update/:id', function(req, res, next) {
   controller.update(req,res);
 });
 
-router.post('/delete', function(req, res, next) {
+router.delete('/:id', function(req, res, next) {
   controller.delete(req,res);
 });
 

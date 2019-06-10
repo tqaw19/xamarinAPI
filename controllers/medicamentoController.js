@@ -55,7 +55,7 @@ module.exports = {
 		});
 	},
 	update: function (req, res) {
-		let val_id = req.body.id;
+		let val_id = req.params.id;
 		console.log('ID del elemento: ' + val_id);		
 		let datos = {
 			nombre: req.body.nombre,
@@ -76,7 +76,7 @@ module.exports = {
 		});
 	},
 	delete: function (req, res) {
-		let val_id = req.body.id;
+		let val_id = req.params.id;
 		console.log('ID del elemento: ' + val_id);		
 		model.deleteOne({
 			_id: val_id
